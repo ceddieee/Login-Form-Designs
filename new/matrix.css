@@ -1,0 +1,104 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./images/minimal.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.login-form {
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 1px solid #0c0b0b;
+  box-shadow: 3px 3px 5px;
+}
+
+.header-form {
+  padding: 5px;
+  text-align: center;
+  font-size: xx-large;
+  text-shadow: 1px 1px 1px #0c0b0b;
+}
+
+.login-field {
+  text-align: center;
+}
+
+.input-field {
+  width: 70%;
+  height: 30px;
+  margin: 5px;
+  padding: 5px;
+  color: #f5f5f5;
+  border: 1px solid #0c0b0b;
+  border-radius: 10px;
+  background: none;
+  /*
+  color: #f5f5f5;
+  background: #0c0b0b;
+  border: 1px solid #0c0b0b;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px #0c0b0b;*/
+}
+
+.checkbox-forgot {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 40px;
+  margin-left: 35px;
+}
+
+#chckbx {
+  color: #0c0b0b;
+  font-weight: bold;
+}
+
+#forgot {
+  color: #f5f5f5;
+}
+
+.border-button {
+  text-align: center;
+  padding: 5px;
+}
+
+.login-button {
+  width: 65%;
+  height: 40px;
+  padding: 5px;
+  border: none;
+  background: #0c0b0b;
+  border-radius: 15px;
+  font-size: large;
+  color: #f5f5f5;
+}
+
+.border-signup {
+  text-align: center;
+  padding: 5px;
+}
+
+.signup-button {
+  width: 65%;
+  height: 40px;
+  padding: 5px;
+  border: none;
+  background: #0c0b0b;
+  border-radius: 15px;
+  font-size: large;
+  color: #f5f5f5;
+}
